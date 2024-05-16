@@ -1,0 +1,13 @@
+.card {
+    /* Estilos para la tarjeta */
+    background-color: #fff; /* Color de fondo blanco */
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Borde delgado */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra */
+    padding: 1.25rem; /* Relleno interno */
+}
+
+.mb-3 {
+    /* Estilos para el margen inferior */
+    margin-bottom: 1rem; /* Margen inferior de tamaño medio */
+}
