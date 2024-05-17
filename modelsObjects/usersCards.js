@@ -4,7 +4,7 @@ var travelers = [
     id: "@Mari_Viaja",
     userName: "Maria",
     userLastName: "Garcia",
-    profilePhoto: "https://www.billin.net/blog/wp-content/uploads/2021/06/Im%C3%A1genes-sin-derechos-de-autor.jpeg",
+    profilePhoto: "",
     travelAdvice: "Si visitas Buenos Aires, Argentina, no te pierdas el vibrante barrio de La Boca. Conocido por sus casas coloridas y la famosa calle Caminito, es un gran lugar para experimentar la cultura local. También, visita el Cementerio de la Recoleta donde puedes encontrar la tumba de Eva Perón. Y, por supuesto, disfruta de un tradicional asado argentino en una de las muchas parrillas de la ciudad.",
     travelPhotos: ["https://example.com/la_boca.jpg", "https://example.com/recoleta.jpg", "https://example.com/parrilla.jpg"],
     location: "Buenos Aires, Argentina",
