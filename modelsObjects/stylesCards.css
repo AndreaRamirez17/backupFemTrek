@@ -163,8 +163,8 @@ margin-right: 30px;
 .content {
     flex: 1;
     padding: 10px;
-    margin-left: 10px; /* same width as sidebar */
-    margin-right: 20px; /* margin for the right side */
+    margin-left: 10px;  
+    margin-right: 20px;   
     margin-top:50px;
 }
 .profile-container {
@@ -173,8 +173,63 @@ margin-right: 30px;
 }
 .profile-container img {
     margin-right: 10px;
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
 }
 .card {
     margin-bottom: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 */
+/* Estilos para las tarjetas de perfil */
+.content {
+    flex: 1;
+    padding: 10px;
+    margin-left: 10px;  
+    margin-right: 20px;   
+    margin-top: 50px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container img {
+    margin-right: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra debajo de la tarjeta */
+}
+
+/* Clase para la imagen de perfil redondeada y pequeña */
+.profile-img {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Ajusta el tamaño de la imagen */
+    border-radius: 50%; /* Hace la imagen redondeada */
+    background-color: pink;
+}
+
+.card-header {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    margin-top: 15px;
+    margin-left: 15px; /* Margen izquierdo para separar el texto de la imagen */
+}
+/* Ajustes para el carrusel dentro de las tarjetas */
+.carousel-item img {
+    border-radius: 15px; 
+   /* width: 100px;  Ajusta el tamaño de la imagen */
+    /*height: 400px;
+     Opcional: ajusta el borde redondeado de las imágenes del carrusel */
+}
+
