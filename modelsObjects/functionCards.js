@@ -46,26 +46,37 @@ function addToList(traveler) {
     carousel.className = "carousel slide";
     carousel.setAttribute("data-ride", "carousel");
 
+    var carouselIndicators = document.createElement("ol");
+    carouselIndicators.className = "carousel-indicators";
+
     var carouselInner = document.createElement("div");
     carouselInner.className = "carousel-inner";
 
     traveler.travelPhotos.forEach((photo, index) => {
         var carouselItem = document.createElement("div");
         carouselItem.className = "carousel-item" + (index === 0 ? " active" : "");
-        
+
         var img = document.createElement("img");
         img.className = "d-block w-100";
         img.src = photo;
         img.alt = `Slide ${index + 1}`;
 
+        var indicator = document.createElement("li");
+        indicator.setAttribute("data-target", "#carouselExampleIndicators" + traveler.userName.replace(/\s+/g, ''));
+        indicator.setAttribute("data-slide-to", index.toString());
+        if (index === 0) {
+            indicator.className = "active";
+        }
+
         carouselItem.appendChild(img);
         carouselInner.appendChild(carouselItem);
+        carouselIndicators.appendChild(indicator);
     });
 
     carousel.appendChild(carouselInner);
+    carousel.appendChild(carouselIndicators);
     cardBody.appendChild(carousel);
-    new bootstrap.Carousel(carousel);
-}
+  }
 
   listItem.appendChild(cardHeader);
   listItem.appendChild(cardBody);

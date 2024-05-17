@@ -225,11 +225,22 @@ margin-right: 30px;
     margin-top: 15px;
     margin-left: 15px; /* Margen izquierdo para separar el texto de la imagen */
 }
-/* Ajustes para el carrusel dentro de las tarjetas */
+/* Ajustes para el carrusel dentro de las tarjetas 
 .carousel-item img {
     border-radius: 15px; 
-   /* width: 100px;  Ajusta el tamaño de la imagen */
-    /*height: 400px;
+   width: 100px;  Ajusta el tamaño de la imagen 
+    height: 400px;
      Opcional: ajusta el borde redondeado de las imágenes del carrusel */
+}*/
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Color de fondo */
+}
+
+/* Estilos para el texto "Previous" y "Next" de las flechas del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+  color: black; /* Color del texto */
 }
 

@@ -8,7 +8,7 @@ var travelers = [
     travelAdvice: "Si visitas Buenos Aires, Argentina, no te pierdas el vibrante barrio de La Boca. Conocido por sus casas coloridas y la famosa calle Caminito, es un gran lugar para experimentar la cultura local. También, visita el Cementerio de la Recoleta donde puedes encontrar la tumba de Eva Perón. Y, por supuesto, disfruta de un tradicional asado argentino en una de las muchas parrillas de la ciudad.",
     location: "Buenos Aires, Argentina",
     tags: ["La Boca", "Cementerio de la Recoleta", "Asado Argentino"],
-    travelPhotos: ["./mujer.png", "https://mx.images.search.yahoo.com/images/view;_ylt=AwrOtvl5w0dmSs8F6BzF8Qt.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2E4MDI5MGVmNTU0YWVjYjEwYWI1YmVhY2Y5N2QxYjY5BGdwb3MDMTMEaXQDYmluZw--?back=https%3A%2F%2Fmx.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dimagenes%2Bde%2Bviaje%2Bsin%2Bderechos%2Bde%2Bautor%26type%3DE211MX911G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D13&w=2250&h=1500&imgurl=www.billin.net%2Fblog%2Fwp-content%2Fuploads%2F2021%2F06%2FIm%25C3%25A1genes-sin-derechos-de-autor.jpeg&rurl=https%3A%2F%2Fwww.billin.net%2Fblog%2Fimagenes-sin-derechos-de-autor%2F&size=320.3KB&p=imagenes+de+viaje+sin+derechos+de+autor&oid=a80290ef554aecb10ab5beacf97d1b69&fr2=piv-web&fr=mcafee&tt=9+Webs+con+Im%C3%A1genes+sin+Derechos+de+Autor+-+Billin&b=0&ni=21&no=13&ts=&tab=organic&sigr=UwgdDkMvL64f&sigb=AFBuZmn787eF&sigi=tE_8liiqf1OI&sigt=49Sv.cYuBVed&.crumb=.yaW4g4an.n&fr=mcafee&fr2=piv-web&type=E211MX911G0", "./mujer.png"]
+    travelPhotos: [ "./luffy.jpeg", "./mujer.png","./mujer.png",],
   },
   {
     id: "@AnneMtz",
