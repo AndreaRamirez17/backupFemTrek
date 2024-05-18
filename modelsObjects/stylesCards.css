@@ -1,5 +1,5 @@
 
-/*Estilos para la Navbar de comunidad*/
+/*Estilos para la Navbar de comunidad
 
 .header .navbar-brand {
     color: white !important;
@@ -31,7 +31,7 @@ cursor: pointer;
 }
 
 
-/*Estilo para todo to, incluye las fuentes que se usaran en todos los elementos*/
+Estilo para todo to, incluye las fuentes que se usaran en todos los elementos
 body {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
@@ -51,7 +51,7 @@ p{text-align: justify;}
 
 
 
-/*Estilos del sidebar*/
+Estilos del sidebar
 .container{
     display: flex;
     justify-content: space-between;
@@ -68,31 +68,7 @@ p{text-align: justify;}
  position: sticky;
 
 }
-
-.imp-links a {
-
- text-decoration: none;
- display: flex;   
- align-items: center;
- margin-bottom: 30px;
- color: #000000;
- width: fit-content;
-}
-
-.imp-links a img {
- width: 25px;
- margin-right: 15px;
-}
-
-.imp-links a:last-child{
-    color: #0d0dfc;
-}
-.imp-links {
-    border-bottom: 1px solid #ccc;
-}
-
-
-/*Estilos del fedd*/
+Estilos del fedd
 .publish-container{
     width: 100%;
     background-color: #ffff;
@@ -102,32 +78,7 @@ p{text-align: justify;}
     margin-top:  70px;
 }
 
-.user-profile {
-    display: flex;
-    
-    align-items: center;
-}
 
-.user-profile img{
-    width: 45px;
-   border-radius: 50%;
-   margin-right: 10px;
-}
-
-.user-profile p{
-margin-bottom: -5px;
-font-weight: 500;
-color: #626262;
-}
-
-.user-profile small{
-    font-size: 12px;
-}
-
-.user-profile span{
-    font-size: 10px;
-    
-}
 
 .post-input-container{
     padding-left: 55px;
@@ -158,7 +109,7 @@ font-size: 13px;
 width: 20px;
 margin-right: 30px;
 }
-
+*/
 
 /* Estilos para las tarjetas de perfil */
 .content {
@@ -220,3 +171,243 @@ margin-right: 30px;
   color: black; /* Color del texto */
 }
 
+/*ANA CSS*/
+.header .navbar-brand {
+    color: white !important;
+}
+
+.header .nav-link {
+    color: white !important;
+    font-size: 16.5px;
+}
+
+.header .nav-link:hover {
+    color: rgb(99, 56, 56) !important;
+}
+
+@media(max-width: 700px){
+    .nav-link{text-align: center;}
+}
+
+.header .navbar {
+    background-image: linear-gradient(to right, #F5E2BE, #e07A76);
+}
+
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 22px;
+
+}
+
+h1 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+}
+
+h2 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+}
+#textarea{
+    resize: none;
+}
+.bg-green{
+    border-radius: 3%;
+    background: #f5e2be; /* 7c946c f3ab91 f5e2be f8c0a9*/
+}
+
+
+.form-label{
+    color: black;
+}
+
+.icon-circle {
+    
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f8c0a9; 
+   
+    line-height: 30px;
+    margin-right: 10px; 
+    
+}
+
+.icon-circle i {
+    color: white; 
+}
+
+.info {
+    display: inline-block;
+    vertical-align: center;
+}
+
+.warnings {
+    color: red; /* Color del texto de advertencia */
+    font-size: 14px; /* Tamaño de la fuente */
+    margin-top: 10px; /* Espacio desde la parte superior del contenedor */
+    text-align: center;
+}
+#myMap {
+    width: 95%; 
+    height: 220px;
+}
+.col-sm {
+    margin-bottom: 20px; 
+}
+
+#parrafo {
+    text-align: justify; 
+    margin-right: 20px; 
+}
+
+#col-der {
+    max-width: 470px; 
+    margin-bottom: 0; 
+}
+/* mis humildes aportes */
+
+/*  tamaño del recuadro para publicar*/ 
+.fixed-size-textarea {
+    width: 80%; /* Revisar al final */
+    height: 90px; /* Altura fija */
+    resize: none; /* Deshabilitar el redimensionamiento */
+}
+
+/* Para que los links no esten subrayados */
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+/*colores boton */
+.btn-custom {
+    background-color: #7c947c; /* Color de fondo */
+    border-color:  #7c947c; /* Color del texto */
+    border-radius: 5px;/* redondeo*/
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #e07a76;
+    border-color:#e07a76; /* Color de fondo al pasar el mouse */
+}
+
+
+.list-group-item-custom {
+
+    background-blend-mode: darken;
+    color: #000; 
+}
+
+/* pruebas para etiquetas*/
+.button {
+    border: none;
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 4px 10px; 
+    /* Arriba | Derecha | Abajo | Izquierda */
+    cursor: pointer;
+}
+  
+  .button1 {background-color: #7c947c;} /* Green */
+  .button2 {background-color: #e07a76;} /* Blue */
+  .button3 {background-color: #f3ab91;} /* Blue */
+
+.left-sidebar{
+ background-color: #f5e2be59;
+    padding: 15px 10px 10px 10px;
+    height: 100%; /*  para que use todo el largo*/ 
+  }
+  
+
+  .tag {
+    display: inline-block;
+    background-color: #7c946c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+
+.tag:hover {
+    background-color: #F1D7A7;
+    cursor: pointer;
+}
+
+#postType{
+    width: 80%;
+}
+ 
+/* alerta de publicar */
+.alert {
+    display: none;
+}
+.imp-links a {
+
+    text-decoration: none;
+    display: flex;   
+    align-items: center;
+    margin-bottom: 30px;
+    color: #000000;
+    width: fit-content;
+}
+   
+.imp-links a img {
+ width: 25px;
+ margin-right: 15px;
+}
+   
+.imp-links a:last-child{
+    color: #0d0dfc;
+}
+.imp-links {
+    border-bottom: 1px solid #ccc;
+}
+/*  */
+.user-profile {
+    display: flex;
+    
+    align-items: center;
+}
+
+.user-profile img{
+    width: 45px;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.user-profile p{
+margin-bottom: -5px;
+font-weight: 500;
+color: #626262;
+}
+
+.user-profile small{
+    font-size: 12px;
+}
+
+.user-profile span{
+    font-size: 10px;
+    
+}
